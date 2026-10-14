@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="mypage.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="" class="logo">My Portfolio</a>
+            <button class="meun-button" id="menu-btn">≡</button>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">skills</a><li>
+                <li><a href="">projects</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+
+        </nav>
+        
+    </header>
+    
+
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
+            <h1>Hi, I'm <span> IFEFORCHRIST</span></h1>
+            <h2>Web Developer</h2>
+            <p>I create modern, responsive and user-friendly website using HTML, CSS and JAVASCRIPT</p>
+            <div class="hero-button">
+                <a href="#projects" class="btn">View Project</a>
+                <a href="#contact" class="btn btn-outline">Contact me</a>
+            </div>
+        </div>
+    </section>
+
+<section class="section" id="About">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="profile-placeholder">ife</div>
+            </div>
+            <div class="about-text">
+                <h3>I am a passionate Web Developer</h3>
+                <p>I enjoy building websites and web application that are fast, 
+                    responsive and easy to use</p>
+                <p>My goal is to continuonusly improve my development 
+                    skills and create useful digital products</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section skills-section" id="skills">
+    <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <div class="skill-icon">HTML</div>
+                <h3>HTML</h3>
+                <p>create semantic and accessable webpage structure</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">CSS</div>
+                <h3>CSS</h3>
+                <p>Desiging responsive and modern user interface</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">JAVASCRIPT</div>
+                <h3>JAVASCRIPT</h3>
+                <p>adding dynamic functionlity and interactivity to website</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-image">project 1</div>
+                <div class="project-content">
+                    <h1>Landing page</h1>
+                    <p>Modern responsive landing page built with HTML and CSS</p>
+                    <a href="" class="project-link">View projects →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">project 2</div>
+                <div class="project-content">
+                    <h1>Todo App</h1>
+                    <p>A javaScript todo application for managing daily tasks</p>
+                    <a href="" class="project-link">View projects →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">project 3</div>
+                <div class="project-content">
+                    <h1>Weather App</h1>
+                    <p>A responsive weather application with a clean user interface</p>
+                    <a href="" class="project-link">View projects →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section contact-section" id="contact">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form action="" class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text"  id="name" placeholder="Enter your name">
+                <small id="nameError"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email"  id="email" placeholder="Enter your name">
+                <small id="emailError"></small>
+            </div>
+            <div class="form-group">
+                <label for="message">message</label>
+                <textarea  id="message" rows="6" placeholder="leave a message here"></textarea>
+                <small id="messageError"></small>
+            </div>
+            <button class="btn" type="submit">Send Message</button>
+            <p id="successMessage"></p>
+
+        </form>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2026 MyPortfolio. All Right Reserved</p>
+</footer>
+<button id="scrollTop"  class="scroll-top">↑
+    
+</button>
+
+<script src="mypage.js"></script>
+
+</script>
+</body>
+</html>

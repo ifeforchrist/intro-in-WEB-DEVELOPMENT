@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-self:center;
+    height: 100vh;
+}
+.profile-card{
+    background: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgb(red, green, blue);
+}
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.bio{
+    color: gray;
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    background: #eee;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 5px;
+}
+button{
+    background: #007bff;
+    color: white;
+    border: none;    
+}
